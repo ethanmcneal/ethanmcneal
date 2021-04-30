@@ -1,4 +1,12 @@
-### Hi there 👋
+### Hey! my name is Ethan McNeal and I am a prospective React developer. I gradtuated from Devpoint Labs in April 2021 and I am currently in the job market. My stack includes JavaScript, Ruby, PostgreSql, React, and React Native. 
+
+## I am currently working on building my portfolio and finding a front end react development job. 
+## Although I want to learn new languages, first I want to polish my JavaScript and Ruby knowledge as high as it can go.
+## I am in the Salt Lake City area, and I hope to work for a good company here one day.
+
+## Ask me about my projects at DevPoint Labs! you can check out my final project at github.com/ethanmcneal/streaks
+
+## I am always looking to meet new people, collaborate on new projects, and expand my newtork. You can reach me at my email ethan.mcneal@gmail.com, or linkedIn: https://www.linkedin.com/in/ethanmcneal/
 
 <!--
 **ethanmcneal/ethanmcneal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
