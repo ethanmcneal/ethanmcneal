@@ -2,6 +2,8 @@ import kayak from '../images/kayak.jpg'
 import code from '../images/code.jpg'
 import linkedinpfp from '../images/linkedinpfp.jpg'
 import '../stylesheets/home.css'
+import Projects from './Projects'
+import AboutMe from './AboutMe'
 
 
 const Home = () => (
@@ -19,8 +21,13 @@ const Home = () => (
         <div>
         <h2 style={{position: 'absolute', top: '30%', left: '66%', zIndex:'3', color: 'white'}}>My Projects</h2>
         <img src={code} />
-        </div>   
+        </div> 
     </div>
+    <br />
+    <h1>Projects</h1>  
+    <Projects />
+    <h1>About Me</h1>
+    <AboutMe />
     </>
 )
 
