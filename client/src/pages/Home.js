@@ -4,6 +4,7 @@ import linkedinpfp from '../images/linkedinpfp.jpg'
 import '../stylesheets/home.css'
 import Projects from './Projects'
 import AboutMe from './AboutMe'
+import Footer from './Footer'
 
 
 const Home = () => (
@@ -28,6 +29,7 @@ const Home = () => (
     <Projects />
     <h1>About Me</h1>
     <AboutMe />
+    <Footer />
     </>
 )
 
