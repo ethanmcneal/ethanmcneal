@@ -18,7 +18,7 @@ const Footer = () => {
                 <p>
                     Contact Me:
                 </p>
-            <p style={{margin: '0'}}>8015023712</p>
+            <p style={{margin: '0'}}>801-502-3712</p>
             <p style={{margin: '0'}}>ethan.mcneal@gmail.com</p>
             </div>
         </div>
