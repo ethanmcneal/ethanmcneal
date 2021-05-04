@@ -5,7 +5,7 @@ import Streaks from './pages/Streaks';
 
 function App() {
   return (
-    <div style={{backgroundColor: '	#f9f1f1', marginTop: '0'}}>
+    <div style={{backgroundColor: '#F5F6F8', marginTop: '0'}}>
     <Switch>
    <Route exact path='/' component={Home}/>
    <Route exact path='/streaks' component={Streaks}/>

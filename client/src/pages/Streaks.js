@@ -19,10 +19,10 @@ const Streaks = () => {
             <img src={logo} />
             <div className='content'>
              <a href='https://github.com/ethanmcneal/streaks' target='_blank'>
-            <Button>Github</Button>
+            <Button variant="Warning">Github</Button>
             </a>
             <a href='https://streaks-app.herokuapp.com/' target='_blank'>
-            <Button>Site</Button>
+            <Button>Live Site</Button>
             
             </a>
             <Link to='/'>
