@@ -59,8 +59,16 @@ h1 {
     align-items: center;
     
 }
+.mobile img{
+    min-height: 400px;
+    max-width: 300px;
+    display: block;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+    
+}
 
 .mobile button{
-    margin: 4em 0;
+    margin: 2em 0;
 
 }

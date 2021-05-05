@@ -7,14 +7,12 @@ import MobileProjects from './MobileProjects'
 import AboutMe from './AboutMe'
 import Footer from './Footer'
 import * as Scroll from 'react-scroll'
-import { useState } from 'react'
 import { Button } from 'bootstrap-react'
 import MobileAboutMe from './MobileAboutMe'
 
 
 const Home = () => {
     var scroller = Scroll.animateScroll
-    const [mobileView, setmobileView] = useState(false)
 
     // if (window.innerWidth <= 900){
     //     setmobileView(true)
@@ -23,10 +21,11 @@ const Home = () => {
     <>
     <h1>Ethan McNeal</h1>
     {window.innerWidth <= 900 ? 
-        <div className='mobile'>
-            <Button>About Me</Button>
-            <Button>Get In Contact</Button>
-            <Button>My Projects</Button>
+        <div className='mobile' style={{height: window.innerHeight}}>
+            <img alt='ethan mcneal' src={linkedinpfp} />
+            <Button onClick={()=>scroller.scrollTo(2225)}>About Me</Button>
+            <Button onClick={scroller.scrollToBottom}>Get In Contact</Button>
+            <Button onClick={()=>scroller.scrollTo(850)}>My Projects</Button>
         </div> :
         
     <div className='image-container'>

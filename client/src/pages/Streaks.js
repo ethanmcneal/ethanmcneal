@@ -30,9 +30,11 @@ const Streaks = () => {
                 <h1>What is Streaks?</h1>
                 Streaks was my final project at the University of Utah's full time web development cohort. My team was assigned this project with a pretty open prompt along the lines of "Create an app where users can compete with their friends in competitions, the losers have to submit proof of punishment and the winners get some kind of reward". Going in we spent a lot of time planning what this would look like, and how it would work. This is what we came up with: A user would register and be prompted to create or join some streaks, upon creating a streak the creator choses when that streak starts, and once it starts it becomes un-joinable. The last man standing is declared the winner, and the losers have to submit media proof of punishment for all to see. Users can also leave comments and update their information  
             </div>
-            {window.innerWidth > 900 && <div>
-             <img src={logo} alt='streaks'/>
+            {window.innerWidth > 900 && 
+            <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+                <img src={logo} alt='streaks'/>
             <div className='content'>
+            
              <a href='https://github.com/ethanmcneal/streaks' target='_blank' rel="noreferrer">
             <Button variant="Warning">Github</Button>
             </a>

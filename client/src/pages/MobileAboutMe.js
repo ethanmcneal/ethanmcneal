@@ -1,5 +1,4 @@
 import hawaii from '../images/hawaii.JPG'
-import kayak from '../images/kayak.jpg'
 import code from '../images/code.jpg'
 
 const MobileAboutMe = () => {

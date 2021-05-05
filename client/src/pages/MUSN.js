@@ -10,7 +10,7 @@ const MUSN = () => {
         {/* <h1>Streaks</h1> */}
         {window.innerWidth < 900 &&
         <>
-        <div style={{width: '400px', backgroundColor: '#375A7F', margin: '5em 2em', padding: '3em 2em', width: window.innerWidth < 900 && window.innerWidth}}>
+        <div style={{ backgroundColor: '#375A7F', margin: '5em 2em', padding: '3em 2em', width: window.innerWidth < 900 ? window.innerWidth : '400px'}}>
         <h1>MUSN</h1>
         </div>
         <div className='content2'>
@@ -25,7 +25,7 @@ const MUSN = () => {
        <Button>Back to Homepage</Button>
        </Link>
        </div>
-       <div className='info-card2' style={{marginBottom: '6em'}} style={{width: window.innerWidth < 900 && window.innerWidth}}>
+       <div className='info-card2' style={{marginBottom: '6em', width: window.innerWidth < 900 && window.innerWidth}}>
             My group members and I decided to work on this project after our cohort, to clean it up a bit and make it smoother around the edges, you can check out how the project was at the end of the 6 hours alloted for this hackathon, or take a look at our work in progress at the forked github.
         </div>
        </>
@@ -62,7 +62,7 @@ const MUSN = () => {
             </div>
         </div>
         
-        {window.innerWidth > 900 && <div className='info-card2' style={{marginBottom: '6em'}} style={{width: window.innerWidth < 900 && window.innerWidth}}>
+        {window.innerWidth > 900 && <div className='info-card2' style={{width: window.innerWidth < 900 && window.innerWidth, marginBottom: '6em'}}>
             My group members and I decided to work on this project after our cohort, to clean it up a bit and make it smoother around the edges, you can check out how the project was at the end of the 6 hours alloted for this hackathon, or take a look at our work in progress at the forked github.
         </div> }
         </div>
