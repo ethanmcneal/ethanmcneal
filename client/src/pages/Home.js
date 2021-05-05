@@ -15,35 +15,35 @@ const Home = () => {
     <h1>Ethan McNeal</h1>
     <div className='image-container'>
         <div>
-        <a onClick={()=>scroller.scrollTo(1600)}>
+        <p onClick={()=>scroller.scrollTo(1600)} >
         <h2 style={{position: 'absolute', top: '30%', left: '25%', zIndex:'3', color: 'white'}}>About Me</h2>
-        <img src={kayak} />
-        </a>
+        <img alt='kayak.png' src={kayak} />
+        </p>
         
         </div>
         <div>
-            <a onClick={scroller.scrollToBottom}>
+            <p onClick={scroller.scrollToBottom}>
         <h2 style={{position: 'absolute', top: '30%', left: '45%', zIndex:'3', color: 'white'}}>Get in Contact</h2>
-        <img src={linkedinpfp} />
-            </a>
+        <img alt='ethan mcneal' src={linkedinpfp} />
+            </p>
         </div>
         
         <div>
-        <a onClick={()=>scroller.scrollTo(750)}>
+        <p onClick={()=>scroller.scrollTo(750)}>
         <h2 style={{position: 'absolute', top: '30%', left: '66%', zIndex:'3', color: 'white'}}>My Projects</h2>
-        <img src={code} />
-        </a>
+        <img alt='code' src={code} />
+        </p>
         </div> 
         
     </div>
     <br />
-    <h1> <a name='projects'>Projects</a></h1>  
+    <h1> Projects</h1>  
     <Projects />
-    <h1> <a name='about-me'>About Me</a></h1>
+    <h1>About Me</h1>
     <AboutMe />
-    <a name='footer'>
+    
     <Footer />
-    </a>
+    
     </>)
 }
 

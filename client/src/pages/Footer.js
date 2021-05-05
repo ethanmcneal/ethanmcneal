@@ -8,11 +8,11 @@ const Footer = () => {
     return(
         <div style={{backgroundColor: 'rgb(34,34,34)', color: 'white', margin: '0', height: '100px', display: 'flex', justifyContent: 'space-between'}}>
             <div style={{margin: '1em'}}>
-                <a href={'https://www.linkedin.com/in/ethanmcneal/'} target={'_blank'}>
+                <a href={'https://www.linkedin.com/in/ethanmcneal/'} target={'_blank'} rel="noreferrer">
             <img src={LinkedInLogo} alt='linked in' style={{width: '25px', height: '25px', margin: '1em .5em'}}/>
                 </a>
-                <a href={'https://www.github.com/ethanmcneal/'} target={'_blank'}>
-            <img src={githubLogo} style={{height: '25px', margin: '1em .5em'}}/>
+                <a href={'https://www.github.com/ethanmcneal/'} target={'_blank'} rel="noreferrer">
+            <img src={githubLogo} alt='github' style={{height: '25px', margin: '1em .5em'}}/>
                 </a>
             </div>
             <div>

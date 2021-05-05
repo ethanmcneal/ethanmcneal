@@ -6,7 +6,7 @@ const Projects = () => {
     return(
         <div className='projects-container' >
             <div className='project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
-                <img style={{margin: '0'}} src={streaks}/>
+                <img alt='streaks' style={{margin: '0'}} src={streaks}/>
                 <h2 style={{color: 'rgb(245 155 13)', margin: '-20px 1em 0'}}>
                     Streaks is an app deigned to put a fun, competitive spin on creating healthy habits with friends and family. 
                 </h2>

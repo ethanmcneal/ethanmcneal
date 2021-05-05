@@ -1,4 +1,4 @@
-import logo from '../images/1.png'
+
 import { Button } from 'bootstrap-react'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
@@ -18,10 +18,10 @@ const MUSN = () => {
                 <h1>MUSN</h1>
             </div>
             <div className='content2'>
-             <a href='https://github.com/Derek229/Musn' target='_blank'> 
+             <a href='https://github.com/Derek229/Musn' target='_blank' rel="noreferrer"> 
             <Button variant="Warning">Original Github</Button>
             </a>
-            <a href='https://github.com/tvonhake/Musn' target='_blank'>
+            <a href='https://github.com/tvonhake/Musn' target='_blank' rel="noreferrer">
             <Button>Forked Github</Button>
             
             </a>
