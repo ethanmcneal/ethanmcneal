@@ -4,8 +4,16 @@ import logo from '../images/1.png'
 import { Button } from 'bootstrap-react'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import * as Scroll from 'react-scroll'
+import { useEffect } from 'react'
 
 const Streaks = () => {
+
+    var scroller = Scroll.animateScroll
+
+        useEffect(()=> {
+            scroller.scrollToTop()
+        })
     return(
         <>
         <div className='main' style={{width: window.innerWidth}}>

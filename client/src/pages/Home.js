@@ -9,14 +9,15 @@ import Footer from './Footer'
 import * as Scroll from 'react-scroll'
 import { Button } from 'bootstrap-react'
 import MobileAboutMe from './MobileAboutMe'
+import { useEffect } from 'react'
 
 
 const Home = () => {
     var scroller = Scroll.animateScroll
 
-    // if (window.innerWidth <= 900){
-    //     setmobileView(true)
-    // }
+    useEffect(()=> {
+        scroller.scrollToTop()
+    })
     return(
     <>
     <h1>Ethan McNeal</h1>

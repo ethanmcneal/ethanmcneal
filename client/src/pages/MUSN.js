@@ -2,8 +2,15 @@
 import { Button } from 'bootstrap-react'
 import Footer from './Footer'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
+import * as Scroll from 'react-scroll'
 
 const MUSN = () => {
+    var scroller = Scroll.animateScroll
+
+ useEffect(()=> {
+    scroller.scrollToTop()
+ })
     return(
         <>
         <div className='main2'>
