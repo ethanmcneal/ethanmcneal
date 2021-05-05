@@ -35,9 +35,9 @@ h1 {
 }
 
 .mobile-project-container {
-    width: 350px;
+    min-width: 375px;
     text-align: center;
-    margin: 0 1em 1em;
+    margin: 0 1em;
     padding-bottom: 6em;
 }
 

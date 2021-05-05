@@ -9,6 +9,7 @@ import Footer from './Footer'
 import * as Scroll from 'react-scroll'
 import { useState } from 'react'
 import { Button } from 'bootstrap-react'
+import MobileAboutMe from './MobileAboutMe'
 
 
 const Home = () => {
@@ -54,7 +55,7 @@ const Home = () => {
     <h1> Projects</h1>  
     {window.innerWidth <= 900 ? <MobileProjects /> : <Projects />}
     <h1>About Me</h1>
-    {/* <AboutMe /> */}
+    {window.innerWidth <= 900 ? <MobileAboutMe /> : <AboutMe />}
     
     <Footer />
     

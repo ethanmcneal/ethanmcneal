@@ -15,10 +15,10 @@ const Footer = () => {
             <img src={githubLogo} alt='github' style={{height: '25px', margin: '1em .5em'}}/>
                 </a>
             </div>
-            <div>
+            {window.innerWidth > 800 && <div>
              <p>Ethan McNeal</p>
              <p onClick={scroll.scrollToTop}>Scroll to top</p>
-             </div>
+             </div> }
             <div style={{margin: '0'}}>
                 
                 <p>
