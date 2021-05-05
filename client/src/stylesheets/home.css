@@ -39,3 +39,8 @@ h1 {
     margin: 0 1em 1em;
     padding-bottom: 6em;
 }
+
+.image-links {
+    position: relative;
+    text-align: center;
+}

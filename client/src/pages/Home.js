@@ -14,23 +14,22 @@ const Home = () => {
     <>
     <h1>Ethan McNeal</h1>
     <div className='image-container'>
-        <div>
+        <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(1600)} >
         <h2 style={{position: 'absolute', top: '30%', left: '25%', zIndex:'3', color: 'white'}}>About Me</h2>
         <img alt='kayak.png' src={kayak} />
         </p>
-        
         </div>
-        <div>
+        <div className='image-links'>
             <p onClick={scroller.scrollToBottom}>
-        <h2 style={{position: 'absolute', top: '30%', left: '45%', zIndex:'3', color: 'white'}}>Get in Contact</h2>
+        <h2 style={{position: 'absolute', top: '30%',left: '22%', zIndex:'3', color: 'white'}}>Get in Contact</h2>
         <img alt='ethan mcneal' src={linkedinpfp} />
             </p>
         </div>
         
-        <div>
+        <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(750)}>
-        <h2 style={{position: 'absolute', top: '30%', left: '66%', zIndex:'3', color: 'white'}}>My Projects</h2>
+        <h2 style={{position: 'absolute', top: '30%',left: '25%', zIndex:'3', color: 'white'}}>My Projects</h2>
         <img alt='code' src={code} />
         </p>
         </div> 
