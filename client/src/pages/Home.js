@@ -3,16 +3,31 @@ import code from '../images/code.jpg'
 import linkedinpfp from '../images/linkedinpfp.jpg'
 import '../stylesheets/home.css'
 import Projects from './Projects'
+import MobileProjects from './MobileProjects'
 import AboutMe from './AboutMe'
 import Footer from './Footer'
 import * as Scroll from 'react-scroll'
+import { useState } from 'react'
+import { Button } from 'bootstrap-react'
 
 
 const Home = () => {
     var scroller = Scroll.animateScroll
+    const [mobileView, setmobileView] = useState(false)
+
+    // if (window.innerWidth <= 900){
+    //     setmobileView(true)
+    // }
     return(
     <>
     <h1>Ethan McNeal</h1>
+    {window.innerWidth <= 900 ? 
+        <div className='mobile'>
+            <Button>About Me</Button>
+            <Button>Get In Contact</Button>
+            <Button>My Projects</Button>
+        </div> :
+        
     <div className='image-container'>
         <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(1600)} >
@@ -34,12 +49,12 @@ const Home = () => {
         </p>
         </div> 
         
-    </div>
+    </div> }
     <br />
     <h1> Projects</h1>  
-    <Projects />
+    {window.innerWidth <= 900 ? <MobileProjects /> : <Projects />}
     <h1>About Me</h1>
-    <AboutMe />
+    {/* <AboutMe /> */}
     
     <Footer />
     
