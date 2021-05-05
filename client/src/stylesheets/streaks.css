@@ -25,6 +25,7 @@
 .content2{
     margin-top: 7em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     
 }
@@ -39,7 +40,7 @@
     width: 8em;
 }
 .content img{
-    margin: 0 3em;
+    margin: 0;
     height: 30em;
 }
 
