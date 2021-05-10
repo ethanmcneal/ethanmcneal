@@ -29,7 +29,7 @@ const Home = () => {
             <Button onClick={()=>scroller.scrollTo(850)}>My Projects</Button>
         </div> :
         
-    <div className='image-container'>
+    <div className='image-container' style={{height: window.innerHeight}}>
         <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(1600)} >
         <h2 style={{position: 'absolute', top: '30%', left: '25%', zIndex:'3', color: 'white'}}>About Me</h2>
@@ -51,8 +51,7 @@ const Home = () => {
         </div> 
         
     </div> }
-    <br />
-    <h1> Projects</h1>  
+    <br /> 
     {window.innerWidth <= 900 ? <MobileProjects /> : <Projects />}
     <h1>About Me</h1>
     {window.innerWidth <= 900 ? <MobileAboutMe /> : <AboutMe />}
