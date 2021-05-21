@@ -1,7 +1,7 @@
 
 import hawaii from '../images/hawaii.JPG'
 import {
-    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiMicrosoftexcel, SiRails, SiReact, SiRuby, SiVisualstudiocode
+    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiMicrosoftexcel, SiRails, SiReact, SiRuby, SiSemanticweb, SiVisualstudiocode
 } from 'react-icons/si'
 
 const AboutMe = () => {
@@ -22,15 +22,18 @@ const AboutMe = () => {
                 <SiRuby size='3em' style={{margin: 'auto'}}/>
                 <SiRails size='3em' style={{margin: 'auto'}}/>
                 <SiJson size='3em' style={{margin: 'auto'}}/>
+                <SiSemanticweb size='3em' style={{margin: 'auto'}}/>
+            </div>
+            <div style={{display: 'flex', justifyContent: 'center', margin: '2em 16em', flexWrap: 'wrap'}}>
                 <SiBootstrap size='3em' style={{margin: 'auto'}}/>
                 <SiMicrosoftexcel size='3em' style={{margin: 'auto'}}/>
                 <SiVisualstudiocode size='3em' style={{margin: 'auto'}}/>
                 <SiHtml5 size='3em' style={{margin: 'auto'}}/>
                 <SiCss3 size='3em' style={{margin: 'auto'}}/>
                 <SiGithub size='3em' style={{margin: 'auto'}}/>
-                
-
             </div>
+
+            
             <br />
             <br />
         </div>
