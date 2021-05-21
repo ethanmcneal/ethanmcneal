@@ -1,5 +1,5 @@
 import {
-    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiMicrosoftexcel, SiRails, SiReact, SiRuby, SiSemanticweb, SiVisualstudiocode
+    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiRails, SiReact, SiRuby, SiSemanticweb, SiVisualstudiocode
 } from 'react-icons/si'
 
 const MobileAboutMe = () => {
