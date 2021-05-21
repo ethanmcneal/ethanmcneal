@@ -6,7 +6,7 @@ import Streaks from './pages/Streaks';
 
 function App() {
   return (
-    <div style={{backgroundColor: '#4f7d5b', marginTop: '0', color: 'white'}}>
+    <div style={{backgroundColor: '#222222', marginTop: '0', color: 'white'}}>
     <Switch>
    <Route exact path='/' component={Landing}/>
    <Route exact path='/ethanmcneal' component={Home}/>

@@ -1,24 +1,18 @@
-import LinkedInLogo from '../images/LinkedIn.png'
-import githubLogo from '../images/github.png'
-import * as Scroll from 'react-scroll'
+
+import {VscGithubInverted} from 'react-icons/vsc'
+import {FaLinkedin} from 'react-icons/fa'
 
 const Footer = () => {
-
-    var scroll = Scroll.animateScroll;
     return(
-        <div style={{backgroundColor: 'rgb(34,34,34)', color: 'white', margin: '0', height: '100px', display: 'flex', justifyContent: 'space-between', width: window.innerWidth}}>
+        <div style={{backgroundColor: 'rgb(34,34,34)', color: 'white', margin: '0', height: '100px', display: 'flex', justifyContent: 'space-between', maxWidth: window.innerWidth}}>
             <div style={{margin: '1em'}}>
                 <a href={'https://www.linkedin.com/in/ethanmcneal/'} target={'_blank'} rel="noreferrer">
-            <img src={LinkedInLogo} alt='linked in' style={{width: '25px', height: '25px', margin: '1em .5em'}}/>
+            <FaLinkedin size='2em' style={{margin: '.5em .8em'}}/>
                 </a>
                 <a href={'https://www.github.com/ethanmcneal/'} target={'_blank'} rel="noreferrer">
-            <img src={githubLogo} alt='github' style={{height: '25px', margin: '1em .5em'}}/>
+                <VscGithubInverted size='2em' />
                 </a>
             </div>
-            {window.innerWidth > 800 && <div>
-             <p>Ethan McNeal</p>
-             <p onClick={scroll.scrollToTop}>Scroll to top</p>
-             </div> }
             <div style={{margin: '0'}}>
                 
                 <p style={{margin: '0'}}>

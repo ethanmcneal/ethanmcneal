@@ -7,9 +7,9 @@ import MobileProjects from './MobileProjects'
 import AboutMe from './AboutMe'
 import Footer from './Footer'
 import * as Scroll from 'react-scroll'
-import { Button } from 'bootstrap-react'
 import MobileAboutMe from './MobileAboutMe'
 import { useEffect } from 'react'
+import FadeIn from '../styleComponents/FadeIn'
 
 
 const Home = () => {
@@ -19,19 +19,20 @@ const Home = () => {
         scroller.scrollToTop()
     })
 
-    var projectScrollPoint = (window.innerHeight + 50)
-    var aboutMeScrollPoint = ((window.innerHeight * 2) + 75)
+    var projectScrollPoint = (window.innerHeight + 100)
+    var aboutMeScrollPoint = ((window.innerHeight * 2) + 125)
     return(
         <>
+        <FadeIn>
     <div style={{backgroundColor: 'rgb(25,53,81)'}}>
     
-    <h1>Ethan McNeal</h1>
+    <h1 style={{padding:'.5em'}}>Ethan McNeal</h1>
     {window.innerWidth <= 900 ? 
         <div className='mobile' style={{height: window.innerHeight}}>
             <img alt='ethan mcneal' src={linkedinpfp} />
-            <Button onClick={()=>scroller.scrollTo(2225)}>About Me</Button>
-            <Button onClick={scroller.scrollToBottom}>Get In Contact</Button>
-            <Button onClick={()=>scroller.scrollTo(projectScrollPoint)}>My Projects</Button>
+            <p className='nav-links' onClick={()=>scroller.scrollTo(2225)}>About Me</p>
+            <p className='nav-links' onClick={scroller.scrollToBottom}>Get In Contact</p>
+            <p className='nav-links' onClick={()=>scroller.scrollTo(projectScrollPoint)}>My Projects</p>
         </div> :
         
     <div className='image-container' style={{height: window.innerHeight}}>
@@ -56,17 +57,19 @@ const Home = () => {
         </div> 
         
     </div> 
-    }</div>
-    <br /> 
-    <h1>Projects</h1>
+    }</div> 
+    <div style={{backgroundColor: '#33543a'}}>
+    <h1 style={{padding:'.7em'}}>Projects</h1>
     {window.innerWidth <= 900 ? <MobileProjects /> : <Projects />}
+    <br />
+    </div>
     <div style={{backgroundColor: '#a33636'}}>
-    <h1>About Me</h1>
+    <h1 style={{padding:'.7em'}}>About Me</h1>
     {window.innerWidth <= 900 ? <MobileAboutMe /> : <AboutMe />}
     </div>
     
     <Footer />
-    
+    </FadeIn>
     </>)
 }
 

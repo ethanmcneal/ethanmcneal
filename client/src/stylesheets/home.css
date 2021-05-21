@@ -7,6 +7,19 @@ h1 {
     font-family: 'Roboto' !important;
   }
 
+.landing-link:hover{
+    text-decoration: none !important;
+    font-size: 200% !important;
+  }
+
+.nav-links{
+      margin: 2em;
+      padding: .5em;
+      font-size: 18px;
+      background-color: #222222;
+      border-radius: 4px;
+  }
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -14,7 +27,7 @@ h1 {
 }
 
 .image-container img {
-    height: 700px;
+    height: 650px;
     max-width: 300px;
     display: block;
     object-fit: cover;
@@ -37,14 +50,14 @@ h1 {
     flex-wrap: nowrap;
     /* justify-content: center; */
     overflow-x: auto;
-    margin: 0 3em 1em;
+    margin: 0 2em 1em;
 }
 
 .mobile-project-container {
-    min-width: 375px;
+    min-width: 325px;
     text-align: center;
-    margin: 0 1em;
-    padding-bottom: 6em;
+    margin: 0 0 2em 0;
+    padding-bottom: 5em;
 }
 
 .project-container {
