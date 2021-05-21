@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
             <div style={{margin: '0'}}>
                 
-                <p style={{margin: '0'}}>
+                <p style={{margin: '0 1.5em'}}>
                     Contact Me:
                 </p>
             <p style={{margin: '0 1.5em'}}>801-502-3712</p>

@@ -35,3 +35,5 @@ const Wrapper = styled.div`
   }
 `;
 export default FadeIn
+
+//not my component, src == https://www.joshwcomeau.com/snippets/react-components/fade-in/
