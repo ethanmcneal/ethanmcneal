@@ -8,11 +8,12 @@ import AboutMe from './AboutMe'
 import Footer from './Footer'
 import * as Scroll from 'react-scroll'
 import MobileAboutMe from './MobileAboutMe'
-import { useEffect } from 'react'
+import { useEffect} from 'react'
 import FadeIn from '../styleComponents/FadeIn'
 
 
 const Home = () => {
+    
     var scroller = Scroll.animateScroll
 
     useEffect(()=> {
@@ -24,7 +25,7 @@ const Home = () => {
     return(
         <>
         <FadeIn>
-    <div style={{backgroundColor: 'rgb(25,53,81)'}}>
+    <div>
     
     <h1 style={{padding:'.5em'}}>Ethan McNeal</h1>
     {window.innerWidth <= 900 ? 
@@ -58,12 +59,12 @@ const Home = () => {
         
     </div> 
     }</div> 
-    <div style={{backgroundColor: '#33543a'}}>
+    <div>
     <h1 style={{padding:'.7em'}}>Projects</h1>
     {window.innerWidth <= 900 ? <MobileProjects /> : <Projects />}
     <br />
     </div>
-    <div style={{backgroundColor: '#a33636'}}>
+    <div >
     <h1 style={{padding:'.7em'}}>About Me</h1>
     {window.innerWidth <= 900 ? <MobileAboutMe /> : <AboutMe />}
     </div>
