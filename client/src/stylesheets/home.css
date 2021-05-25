@@ -36,11 +36,6 @@ h1 {
     /* z-index: 1; */
     
 }
-.mobile-form-container {
-    max-width: 350px;
-    margin: auto;
-
-}
 .form-container {
     max-width: 900px;
     margin: auto;

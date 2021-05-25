@@ -13,7 +13,7 @@ const Footer = (props) => {
 
     var scroller = Scroll.animateScroll
 
-    const contactAnimation = () => {
+    const openContactAnimation = () => {
         setShowContactForm(true)
         scroller.scrollToBottom()
     }
@@ -29,27 +29,33 @@ const Footer = (props) => {
                 <VscGithubInverted size='2em' />
                 </a>
             </div>
-            <div style={{margin: '3em 0 0 7em'}}>
-           { !showContactForm ? 
-           <IoIosArrowDropdownCircle onClick={contactAnimation}size='2em'/>
+            {window.innerWidth > 800 && <div style={{margin: '3em 0 0 7em'}}>
+                { !showContactForm ? 
+           <IoIosArrowDropdownCircle onClick={openContactAnimation}size='2em'/>
         :  <IoIosArrowDropupCircle onClick={()=>setShowContactForm(false)}size='2em'/>}
 
-            </div>
+            </div>}
             <div style={{margin: '0', textAlign: 'right'}}>
                 
-                <p style={{margin: '.5em 1.5em'}}>
+                <p style={{margin: '.5em 1em'}}>
                     Contact Me:
                 </p>
-            <p style={{margin: '0 1.5em'}}>801-502-3712</p>
-            <p style={{margin: '0 1.5em'}}>ethan.mcneal@gmail.com</p>
+            <p style={{margin: '0 1em'}}>801-502-3712</p>
+            <p style={{margin: '0 1em'}}>ethan.mcneal@gmail.com</p>
             </div>
         </div>
         {showContactForm && 
-        <FadeIn>
-        <div className='form-container'>
-            <EmailForm />
-        </div>
-        </FadeIn>}
+            <FadeIn>
+                <div className='form-container'>
+                    <EmailForm />
+                </div>
+            </FadeIn>}
+        {window.innerWidth < 800 &&
+        <div style={{textAlign: 'center'}}>
+        {!showContactForm 
+        ? <IoIosArrowDropdownCircle onClick={openContactAnimation}size='2em'/>
+        : <IoIosArrowDropupCircle onClick={()=>setShowContactForm(false)}size='2em'/>}
+        </div>}
     </div>
     )
 }
