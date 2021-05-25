@@ -28,13 +28,10 @@ const MUSN = () => {
        <Button>Forked Github</Button>
        
        </a>
-       <Link to='/'>
+       <Link to='/ethanmcneal'>
        <Button>Back to Homepage</Button>
        </Link>
        </div>
-       <div className='info-card2' style={{marginBottom: '6em', width: window.innerWidth < 900 && window.innerWidth}}>
-            My group members and I decided to work on this project after our cohort, to clean it up a bit and make it smoother around the edges, you can check out how the project was at the end of the 6 hours alloted for this hackathon, or take a look at our work in progress at the forked github.
-        </div>
        </>
        }
         <div className='content2'>
@@ -56,7 +53,7 @@ const MUSN = () => {
             <Button>Forked Github</Button>
             
             </a>
-            <Link to='/'>
+            <Link to='/ethanmcneal'>
             <Button>Back to Homepage</Button>
             </Link>
             </div> 
@@ -68,10 +65,6 @@ const MUSN = () => {
                 MUSN is the project that really evolved my understanding of SQL, going in we had just as a class learned what a joined table was, and how to set up custom SQL routes using joined tables. With it being so fresh not many people quite had a handle on it yet. I am confident in my ability to learn quick, and to perform well in high pressure situation, so I took on the role of backend this project. I am very proud of how I performed. I was able to get all the back end working very quickly, and moved on to utilizing what I set up to quickly do the front end for the joined tables, allowing users to favorite/follow and have it render that on their pages. We were going to take a stab at the spotify API to get some bonus points, but decided there was not enough time. So I ended up using the 8 digit YouTube url codes on songs to create links to the music, and to render a thumbnail.  
             </div>
         </div>
-        
-        {window.innerWidth > 900 && <div className='info-card2' style={{width: window.innerWidth < 900 && window.innerWidth, marginBottom: '6em'}}>
-            My group members and I decided to work on this project after our cohort, to clean it up a bit and make it smoother around the edges, you can check out how the project was at the end of the 6 hours alloted for this hackathon, or take a look at our work in progress at the forked github.
-        </div> }
         </div>
     
         <Footer />

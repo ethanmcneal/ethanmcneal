@@ -30,7 +30,7 @@ const Footer = (props) => {
                 <VscGithubInverted size='2em' />
                 </a>
             </div>
-            {window.innerWidth > 800 && <div style={{margin: '3em 0 0 7em'}}>
+            {window.innerWidth > 800 && <div style={{margin: '3em 0 0 6em'}}>
                 { !showContactForm ? 
                 <Popup content = 'Click me!' style={{color: 'white'}}
                 trigger={<IoIosArrowDropdownCircle onClick={openContactAnimation}size='2em' style={{cursor: 'pointer'}}/>} />

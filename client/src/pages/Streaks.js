@@ -29,7 +29,7 @@ const Streaks = () => {
             <Button>Live Site</Button>
             
             </a>
-            <Link to='/'>
+            <Link to='/ethanmcneal'>
             <Button>Back to Home</Button>
             </Link>
             </div>
@@ -50,7 +50,7 @@ const Streaks = () => {
             <Button>Live Site</Button>
             
             </a>
-            <Link to='/'>
+            <Link to='/ethanmcneal'>
             <Button>Back to Home</Button>
             </Link>
             </div>
