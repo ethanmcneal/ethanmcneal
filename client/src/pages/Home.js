@@ -8,13 +8,13 @@ import AboutMe from './AboutMe'
 import Footer from './Footer'
 import * as Scroll from 'react-scroll'
 import MobileAboutMe from './MobileAboutMe'
-import { useEffect} from 'react'
+import { useEffect, useState }from 'react'
 import FadeIn from '../styleComponents/FadeIn'
-
 
 const Home = () => {
     
     var scroller = Scroll.animateScroll
+    const [showForm, setShowForm] = useState(false)
 
     useEffect(()=> {
         scroller.scrollToTop()
@@ -22,6 +22,11 @@ const Home = () => {
 
     var projectScrollPoint = (window.innerHeight + 100)
     var aboutMeScrollPoint = ((window.innerHeight * 2) + 125)
+
+    const contactMeButton = () => {
+        setShowForm(true)
+        scroller.scrollToBottom()
+    }
     return(
         <>
         <FadeIn>
@@ -32,27 +37,27 @@ const Home = () => {
         <div className='mobile' style={{height: window.innerHeight}}>
             <img alt='ethan mcneal' src={linkedinpfp} />
             <p className='nav-links' onClick={()=>scroller.scrollTo(2225)}>About Me</p>
-            <p className='nav-links' onClick={scroller.scrollToBottom}>Get In Contact</p>
+            <p className='nav-links' onClick={contactMeButton}>Get In Contact</p>
             <p className='nav-links' onClick={()=>scroller.scrollTo(projectScrollPoint)}>My Projects</p>
         </div> :
         
     <div className='image-container' style={{height: window.innerHeight}}>
         <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(aboutMeScrollPoint)} >
-        <h2 style={{position: 'absolute', top: '30%', left: '25%', zIndex:'3', color: 'white'}}>About Me</h2>
+        <h2 style={{top: '30%', left: '25%'}}>About Me</h2>
         <img alt='kayak.png' src={kayak} />
         </p>
         </div>
         <div className='image-links'>
             <p onClick={scroller.scrollToBottom}>
-        <h2 style={{position: 'absolute', top: '30%',left: '22%', zIndex:'3', color: 'white'}}>Get in Contact</h2>
+        <h2 style={{top: '30%',left: '22%'}}>Get in Contact</h2>
         <img alt='ethan mcneal' src={linkedinpfp} />
             </p>
         </div>
         
         <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(projectScrollPoint)}>
-        <h2 style={{position: 'absolute', top: '30%',left: '25%', zIndex:'3', color: 'white'}}>My Projects</h2>
+        <h2 style={{top: '30%',left: '25%'}}>My Projects</h2>
         <img alt='code' src={code} />
         </p>
         </div> 
@@ -69,7 +74,7 @@ const Home = () => {
     {window.innerWidth <= 900 ? <MobileAboutMe /> : <AboutMe />}
     </div>
     
-    <Footer />
+    <Footer showForm={showForm}/>
     </FadeIn>
     </>)
 }

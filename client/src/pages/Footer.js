@@ -1,12 +1,23 @@
 
 import {VscGithubInverted} from 'react-icons/vsc'
 import {FaLinkedin} from 'react-icons/fa'
-import {IoIosArrowDropdownCircle} from 'react-icons/io'
+import {IoIosArrowDropdownCircle, IoIosArrowDropupCircle} from 'react-icons/io'
 import { useState } from 'react'
 import EmailForm from './EmailForm'
+import FadeIn from '../styleComponents/FadeIn'
+import * as Scroll from 'react-scroll'
 
-const Footer = () => {
-    const [showContactForm, setShowContactForm] = useState(false)
+const Footer = (props) => {
+    const {showForm} = props
+    const [showContactForm, setShowContactForm] = useState(showForm ? true : false)
+
+    var scroller = Scroll.animateScroll
+
+    const contactAnimation = () => {
+        setShowContactForm(true)
+        scroller.scrollToBottom()
+    }
+
     return(
         <div style={{backgroundColor: 'rgb(34,34,34)'}}>
         <div style={{color: 'white', margin: '0', height: '100px', display: 'flex', justifyContent: 'space-between', maxWidth: window.innerWidth}}>
@@ -19,11 +30,14 @@ const Footer = () => {
                 </a>
             </div>
             <div style={{margin: '3em 0 0 7em'}}>
-            <IoIosArrowDropdownCircle onClick={()=>setShowContactForm(true)}size='2em'/>
+           { !showContactForm ? 
+           <IoIosArrowDropdownCircle onClick={contactAnimation}size='2em'/>
+        :  <IoIosArrowDropupCircle onClick={()=>setShowContactForm(false)}size='2em'/>}
+
             </div>
-            <div style={{margin: '0'}}>
+            <div style={{margin: '0', textAlign: 'right'}}>
                 
-                <p style={{margin: '0 1.5em'}}>
+                <p style={{margin: '.5em 1.5em'}}>
                     Contact Me:
                 </p>
             <p style={{margin: '0 1.5em'}}>801-502-3712</p>
@@ -31,9 +45,11 @@ const Footer = () => {
             </div>
         </div>
         {showContactForm && 
-        <div >
+        <FadeIn>
+        <div className='form-container'>
             <EmailForm />
-        </div>}
+        </div>
+        </FadeIn>}
     </div>
     )
 }

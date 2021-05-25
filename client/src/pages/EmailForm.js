@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import { Button } from 'bootstrap-react';
 
 
 export default function EmailForm() {
@@ -17,15 +18,16 @@ export default function EmailForm() {
   }
 
   return (
-    <form className="contact-form" onSubmit={sendEmail} style={{display: 'flex', flexDirection: 'column'}}>
-      <input type="hidden" name="contact_number" />
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+    <form className="contact-form" onSubmit={sendEmail}>
+        <h2>Email Me:</h2>
+      <input type="hidden" name="contact_number"  />
+      {/* <label></label> */}
+      <input type="text" name="user_name" placeholder='Name'/>
+      {/* <label>Email</label> */}
+      <input type="email" name="user_email" placeholder='email'/>
+      {/* <label>Message</label> */}
+      <textarea name="message" placeholder='Message'/>
+      <Button type="submit" value="Send" color='secondary'/>
     </form>
   );
 }

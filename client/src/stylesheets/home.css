@@ -32,15 +32,38 @@ h1 {
     display: block;
     object-fit: cover;
     transition: all .2s ease-in-out;
+    opacity: 94%;
     /* z-index: 1; */
     
+}
+.mobile-form-container {
+    max-width: 350px;
+    margin: auto;
+
+}
+.form-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2em;
+    background-color: #333333;
+    border-radius: 14px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-form input, textarea{
+    margin: 1.5em 0 0 0;
 }
 
 
 .image-container img:hover {
     transform: scale(1.1);
     font-size: 3em;
-    /* z-index: 9999; */
+    z-index: 4;
+    position: relative;
+    opacity: 100%;
     
     
 }
@@ -70,6 +93,14 @@ h1 {
 .image-links {
     position: relative;
     text-align: center;
+    
+}
+
+.image-links h2 {
+    position: absolute;
+    z-index:5 ; 
+    color: white;
+
 }
 
 .mobile {
