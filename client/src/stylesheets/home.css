@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap'); */
 h1 { 
     text-align: center;
 }
 
 *{
-    font-family: 'Roboto' !important;
+    font-family: 'Roboto', serif;
   }
 
 .landing-link:hover{
     text-decoration: none !important;
-    font-size: 200% !important;
+    color: white !important;
   }
 
 .nav-links{
@@ -69,6 +71,7 @@ h1 {
     /* justify-content: center; */
     overflow-x: auto;
     margin: 0 2em 1em;
+    
 }
 
 .mobile-project-container {
@@ -83,6 +86,7 @@ h1 {
     text-align: center;
     margin: 0 1em 1em;
     padding-bottom: 2em;
+    border-radius: 12px;
 }
 
 .image-links {

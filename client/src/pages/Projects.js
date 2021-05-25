@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Projects = () => {
     return(
-        <div className='projects-container' >
+        <div className='projects-container' style={{margin: '0 10em'}}>
             <div className='project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
                 <img alt='streaks' style={{margin: '0'}} src={streaks}/>
                 <h3 style={{color: 'rgb(245 155 13)', margin: '-20px 1em 0'}}>

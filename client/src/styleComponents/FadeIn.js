@@ -9,7 +9,7 @@ const fadeIn = keyframes`
   }
 `;
 const FadeIn = ({
-  duration = 1000,
+  duration = 1200,
   delay = 0,
   children,
   ...delegated

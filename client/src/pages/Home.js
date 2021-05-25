@@ -45,7 +45,7 @@ const Home = () => {
         <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(aboutMeScrollPoint)} >
         <h2 style={{top: '30%', left: '25%'}}>About Me</h2>
-        <img alt='kayak.png' src={kayak} />
+        <img alt='kayak.png' src={kayak} style={{borderRadius: '12px 0 0 12px'}}/>
         </p>
         </div>
         <div className='image-links'>
@@ -58,7 +58,7 @@ const Home = () => {
         <div className='image-links'>
         <p onClick={()=>scroller.scrollTo(projectScrollPoint)}>
         <h2 style={{top: '30%',left: '25%'}}>My Projects</h2>
-        <img alt='code' src={code} />
+        <img alt='code' src={code} style={{borderRadius: '0 12px 12px 0'}}/>
         </p>
         </div> 
         
