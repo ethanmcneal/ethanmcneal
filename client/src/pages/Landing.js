@@ -8,7 +8,7 @@ const Landing = () => {
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: 'white'}}>
             <div style={{textAlign: 'center', position: 'absolute', marginTop: '22%'}}>
             <Link to='/ethanmcneal' style={{color: '#363837'}} className='landing-link'>
-            <h1 style={{fontSize:'70px', color: '#363837'}}>
+            <h1 className='landing-name'>
             Ethan McNeal
             </h1>
             </Link>

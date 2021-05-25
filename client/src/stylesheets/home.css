@@ -6,12 +6,20 @@ h1 {
 }
 
 *{
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto'
   }
 
 .landing-link:hover{
     text-decoration: none !important;
-    color: white !important;
+  }
+.landing-name {
+    font-size:70px;
+    color: #363837;
+    transition-duration: 250ms;
+  }
+
+  .landing-name:hover {
+    color:white;
   }
 
 .nav-links{

@@ -1,8 +1,9 @@
 
 import hawaii from '../images/hawaii.JPG'
 import {
-    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiMicrosoftexcel, SiRails, SiReact, SiRuby, SiSemanticweb, SiVisualstudiocode
+    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiPostgresql, SiRails, SiReact, SiRuby, SiSemanticweb, SiVisualstudiocode
 } from 'react-icons/si'
+import {Popup} from 'semantic-ui-react'
 
 const AboutMe = () => {
 
@@ -17,20 +18,56 @@ const AboutMe = () => {
                     </div>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', margin: '2em 16em', flexWrap: 'wrap'}}>
-                <SiJavascript size='3em' style={{margin: 'auto'}}/>
-                <SiReact size='3em' style={{margin: 'auto'}}/>
-                <SiRuby size='3em' style={{margin: 'auto'}}/>
-                <SiRails size='3em' style={{margin: 'auto'}}/>
-                <SiJson size='3em' style={{margin: 'auto'}}/>
-                <SiSemanticweb size='3em' style={{margin: 'auto'}}/>
+                <Popup 
+                content='JavaScript' 
+                trigger={<SiJavascript size='3em' style={{margin: 'auto'}} 
+                basic/>} />
+                <Popup 
+                content='React' 
+                trigger={<SiReact size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='Ruby' 
+                trigger={<SiRuby size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='Ruby on Rails' 
+                trigger={<SiRails size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='JSON' 
+                trigger={<SiJson size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='Semantic UI' 
+                trigger={<SiSemanticweb size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', margin: '2em 16em', flexWrap: 'wrap'}}>
-                <SiBootstrap size='3em' style={{margin: 'auto'}}/>
-                <SiMicrosoftexcel size='3em' style={{margin: 'auto'}}/>
-                <SiVisualstudiocode size='3em' style={{margin: 'auto'}}/>
-                <SiHtml5 size='3em' style={{margin: 'auto'}}/>
-                <SiCss3 size='3em' style={{margin: 'auto'}}/>
-                <SiGithub size='3em' style={{margin: 'auto'}}/>
+                <Popup 
+                content='BootStrap' 
+                trigger={<SiBootstrap size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='PostgreSQL' 
+                trigger={<SiPostgresql size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='Visual Studio Code' 
+                trigger={<SiVisualstudiocode size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='HTML5' 
+                trigger={<SiHtml5 size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='CSS3' 
+                trigger={<SiCss3 size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup 
+                content='GitHub' 
+                trigger={<SiGithub size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
             </div>
 
             
