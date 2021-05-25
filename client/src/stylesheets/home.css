@@ -45,7 +45,6 @@ h1 {
     display: block;
     object-fit: cover;
     transition: all .2s ease-in-out;
-    opacity: 94%;
     /* z-index: 1; */
     
 }
@@ -70,10 +69,7 @@ h1 {
     transform: scale(1.1);
     font-size: 3em;
     z-index: 4;
-    position: relative;
-    opacity: 100%;
-    
-    
+    position: relative;  
 }
 
 .projects-container {
