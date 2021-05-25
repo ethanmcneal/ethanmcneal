@@ -18,53 +18,53 @@ const AboutMe = () => {
                     </div>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', margin: '2em 16em', flexWrap: 'wrap'}}>
-                <Popup 
+                <Popup className='icon-popup'
                 content='JavaScript' 
                 trigger={<SiJavascript size='3em' style={{margin: 'auto'}} 
                 basic/>} />
-                <Popup 
+                <Popup className='icon-popup'
                 content='React' 
                 trigger={<SiReact size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='Ruby' 
                 trigger={<SiRuby size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='Ruby on Rails' 
                 trigger={<SiRails size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='JSON' 
                 trigger={<SiJson size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='Semantic UI' 
                 trigger={<SiSemanticweb size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', margin: '2em 16em', flexWrap: 'wrap'}}>
-                <Popup 
+                <Popup className='icon-popup'
                 content='BootStrap' 
                 trigger={<SiBootstrap size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='PostgreSQL' 
                 trigger={<SiPostgresql size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='Visual Studio Code' 
                 trigger={<SiVisualstudiocode size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='HTML5' 
                 trigger={<SiHtml5 size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='CSS3' 
                 trigger={<SiCss3 size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
-                <Popup 
+                <Popup className='icon-popup'
                 content='GitHub' 
                 trigger={<SiGithub size='3em' style={{margin: 'auto'}} 
                 basic/>}/>

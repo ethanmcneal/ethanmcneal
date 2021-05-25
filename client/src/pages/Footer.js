@@ -6,6 +6,7 @@ import { useState } from 'react'
 import EmailForm from './EmailForm'
 import FadeIn from '../styleComponents/FadeIn'
 import * as Scroll from 'react-scroll'
+import { Popup } from 'semantic-ui-react'
 
 const Footer = (props) => {
     const {showForm} = props
@@ -31,8 +32,9 @@ const Footer = (props) => {
             </div>
             {window.innerWidth > 800 && <div style={{margin: '3em 0 0 7em'}}>
                 { !showContactForm ? 
-           <IoIosArrowDropdownCircle onClick={openContactAnimation}size='2em'/>
-        :  <IoIosArrowDropupCircle onClick={()=>setShowContactForm(false)}size='2em'/>}
+                <Popup content = 'Click me!' style={{color: 'white'}}
+                trigger={<IoIosArrowDropdownCircle onClick={openContactAnimation}size='2em' style={{cursor: 'pointer'}}/>} />
+        :  <IoIosArrowDropupCircle onClick={()=>setShowContactForm(false)}size='2em' style={{cursor: 'pointer'}}/>}
 
             </div>}
             <div style={{margin: '0', textAlign: 'right'}}>

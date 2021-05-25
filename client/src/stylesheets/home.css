@@ -12,6 +12,9 @@ h1 {
 .landing-link:hover{
     text-decoration: none !important;
   }
+.icon-popup{
+    color: white;
+}  
 .landing-name {
     font-size:70px;
     color: #363837;
