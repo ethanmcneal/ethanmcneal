@@ -1,10 +1,8 @@
-### Hey! my name is Ethan McNeal and I am a prospective React developer. I gradtuated from Devpoint Labs in April 2021 and I am currently in the job market. My stack includes JavaScript, Ruby, PostgreSql, React, and React Native. 
+## Hey! my name is Ethan McNeal and I am a full stack developer. I gradtuated from the University of Utah's Full Stack Web Development Bootcamp in April 2021.
 
-#### I am currently working on building my portfolio and finding a front end react development job. 
-#### Although I want to learn new languages, first I want to polish my JavaScript and Ruby knowledge as high as it can go.
-#### I am in the Salt Lake City area, and I hope to work for a good company here one day.
+### || TypeScript || JavaScript || Ruby || PostgreSql || React || React Native || HTNL || CSS || 
 
-#### Ask me about my projects at DevPoint Labs! you can check out my final project at github.com/ethanmcneal/streaks
+#### Are you an employer and don't know where to start looking? Check out my Brainteasers repository, it showcases my extensive Javascript knowledge featuring brainteasers from codewars.com 
 
 #### I am always looking to meet new people, collaborate on new projects, and expand my newtork. You can reach me at my email ethan.mcneal@gmail.com, or linkedIn: https://www.linkedin.com/in/ethanmcneal/
 
