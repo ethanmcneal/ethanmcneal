@@ -1,11 +1,14 @@
 ## Hey! my name is Ethan McNeal and I am a full stack developer.
 
-### || TypeScript || JavaScript || Ruby || PostgresQL || React || React Native || HTML || CSS || 
+ ### || TypeScript || JavaScript || Ruby || PostgresQL || React || React Native || HTML || CSS || 
 
-#### www.ethanmcneal.com 
-=> Don't know where to start looking? Check out my Brainteasers repository, it showcases my extensive Javascript knowledge <=  
 
-=> I am always looking to meet new people, collaborate on new projects, and expand my newtork. You can reach me at my email ethan.mcneal@gmail.com, or [LinkedIn](https://www.linkedin.com/in/ethanmcneal/) <=
+Welcome to my Github! Don't know where to start looking? Check out my [Brainteasers](https://www.github.com/ethanmcneal/Brainteasers) repository!
+
+I am always looking to meet new people, collaborate on new projects, and expand my newtork.
+
+> #### www.ethanmcneal.com 
+> You can reach me at my email ethan.mcneal@gmail.com, or [LinkedIn](https://www.linkedin.com/in/ethanmcneal/)
 
 <!--
 **ethanmcneal/ethanmcneal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
