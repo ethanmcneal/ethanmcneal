@@ -8,7 +8,8 @@ Welcome to my Github! Don't know where to start looking? Check out my [Brainteas
 I am always looking to meet new people, collaborate on new projects, and expand my newtork.
 
 > #### www.ethanmcneal.com 
-> You can reach me at my email ethan.mcneal@gmail.com, or [LinkedIn](https://www.linkedin.com/in/ethanmcneal/)
+> #### ethan.mcneal@gmail.com
+> #### [LinkedIn](https://www.linkedin.com/in/ethanmcneal/)
 
 <!--
 **ethanmcneal/ethanmcneal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
