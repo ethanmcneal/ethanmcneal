@@ -1,13 +1,6 @@
 
 import {VscGithubInverted} from 'react-icons/vsc'
 import {FaLinkedin} from 'react-icons/fa'
-import {IoIosArrowDropdownCircle, IoIosArrowDropupCircle} from 'react-icons/io'
-import { useCallback, useEffect, useState } from 'react'
-import EmailForm from './EmailForm'
-import FadeIn from '../styleComponents/FadeIn'
-import * as Scroll from 'react-scroll'
-import { Popup } from 'semantic-ui-react'
-import EmailFormComponent from '../components/EmailFormComponent'
 
 const Footer = (props) => {
     return(

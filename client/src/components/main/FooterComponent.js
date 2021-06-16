@@ -1,7 +1,8 @@
-import EmailForm from "../pages/EmailForm";
-import Footer from "../pages/Footer";
-import FadeIn from "../styleComponents/FadeIn";
+import FadeIn from "../../styleComponents/FadeIn";
+import EmailForm from "../sub/EmailForm";
+import Footer from "../sub/Footer";
 import EmailFormComponent from "./EmailFormComponent";
+
 
 const FooterComponent = (props) => {
 	return (

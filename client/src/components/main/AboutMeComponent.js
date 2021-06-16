@@ -1,5 +1,5 @@
-import AboutMe from "../pages/AboutMe"
-import MobileAboutMe from "../pages/MobileAboutMe"
+import AboutMe from "../sub/AboutMe"
+import MobileAboutMe from "../sub/MobileAboutMe"
 
 const AboutMeComponent = () => {
     return (

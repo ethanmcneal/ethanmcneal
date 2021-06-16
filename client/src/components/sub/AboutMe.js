@@ -1,5 +1,5 @@
 
-import hawaii from '../images/hawaii.JPG'
+import hawaii from '../../images/hawaii.JPG'
 import {
     SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiJson, SiPostgresql, SiRails, SiReact, SiRuby, SiSemanticweb, SiVisualstudiocode
 } from 'react-icons/si'

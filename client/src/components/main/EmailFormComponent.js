@@ -2,12 +2,8 @@ import {
 	IoIosArrowDropdownCircle,
 	IoIosArrowDropupCircle,
 } from "react-icons/io";
-import { useCallback, useEffect, useState } from "react";
-import FadeIn from "../styleComponents/FadeIn";
-import * as Scroll from "react-scroll";
 import { Popup } from "semantic-ui-react";
-import EmailForm from "../pages/EmailForm";
-import { FaFileExcel } from "react-icons/fa";
+
 
 const EmailFormComponent = (props) => {
 	const Icon = () => {
@@ -39,7 +35,7 @@ const EmailFormComponent = (props) => {
 		<div style={styles.container}>
 			{window.innerWidth > 800 && (
 				<div>
-					<Icon />
+					<Icon style={{marginBottom: '1em'}}/>
 				</div>
 			)}
 			{window.innerWidth < 800 && (

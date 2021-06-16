@@ -1,4 +1,4 @@
-import streaks from '../images/1.png'
+import streaks from '../../images/1.png'
 import { Button } from 'bootstrap-react'
 import { Link } from 'react-router-dom'
 

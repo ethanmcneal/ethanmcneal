@@ -1,5 +1,6 @@
-import MobileProjects from "../pages/MobileProjects"
-import Projects from "../pages/Projects"
+import MobileProjects from "../sub/MobileProjects"
+import Projects from "../sub/Projects"
+
 
 const ProjectComponent = () => {
     return (

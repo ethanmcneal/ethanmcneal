@@ -1,6 +1,6 @@
-import kayak from "../images/kayak.jpg";
-import code from "../images/code.jpg";
-import linkedinpfp from "../images/linkedinpfp.jpg";
+import kayak from "../../images/kayak.jpg";
+import code from "../../images/code.jpg";
+import linkedinpfp from "../../images/linkedinpfp.jpg";
 import * as Scroll from "react-scroll";
 
 const NavCards = (props) => {
