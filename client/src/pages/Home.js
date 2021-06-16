@@ -14,6 +14,7 @@ import EmailFormComponent from "../components/EmailFormComponent";
 import EmailForm from "./EmailForm";
 import FooterComponent from "../components/FooterComponent";
 import NavCards from "../components/NavCards";
+import ProjectComponent from "../components/ProjectComponent";
 
 const Home = () => {
 	var scroller = Scroll.animateScroll;
@@ -23,9 +24,6 @@ const Home = () => {
 		scroller.scrollToTop();
 	}, [scroller]);
 
-	var projectScrollPoint = window.innerHeight + 100;
-	var aboutMeScrollPoint = window.innerHeight * 2 + 125;
-
 	const openContactAnimation = () => {
 		scroller.scrollToBottom();
 		setShowContactForm(true);
@@ -34,19 +32,8 @@ const Home = () => {
 		<>
 			<FadeIn>
 				<NavCards openContactAnimation={openContactAnimation}/>
-				<div>
-					<h1 style={{ padding: ".7em" }}>Projects</h1>
-					{window.innerWidth <= 900 ? (
-						<MobileProjects />
-					) : (
-						<Projects />
-					)}
-					<br />
-				</div>
-				<div>
-					<h1 style={{ padding: ".7em" }}>About Me</h1>
-					{window.innerWidth <= 900 ? <MobileAboutMe /> : <AboutMe />}
-				</div>
+				<ProjectComponent />
+				
 				<FooterComponent 
                 showContactForm={showContactForm}
 				setShowContactForm={setShowContactForm}
