@@ -7,8 +7,7 @@ const MobileAboutMe = () => {
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center'}}>
             
             <p style={{margin: '1em', fontSize: '18px'}}>
-                My name is Ethan McNeal, I studied full stack development at the University of Utah's full stack web development cohort. Going in I had intentions to become a fully backend developer, using ruby and ruby on rails, but during the course I fell in love with the React frame work and decided that a front end job using react is what I really want to do. I am curious about cloud computing and testing automation as well. but for now I am diligently studying and polishing my React/JavaScript skills. 
-            </p>                
+            Hey, I'm Ethan! I graduated from the University of Utah's Web Developer bootcamp in April 2021, and now on the hunt for employment. Please take the time to check out some of my projects and repos on Github! Currently, I am learning React Native and Redux, and mastering Javascript            </p>                
             
             <div style={{display: 'flex', justifyContent: 'center', margin: '2em 1em 0 1em', flexWrap: 'wrap'}}>
                 <SiJavascript size='3em' style={{margin: '0 .6em'}}/>
