@@ -49,8 +49,8 @@ h1 {
     
 }
 .form-container {
-    max-width: 900px;
     margin: auto;
+    width: 80%;
     padding: 2em;
     background-color: #333333;
     border-radius: 14px;
