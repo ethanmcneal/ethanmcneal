@@ -15,6 +15,7 @@ import EmailForm from "./EmailForm";
 import FooterComponent from "../components/FooterComponent";
 import NavCards from "../components/NavCards";
 import ProjectComponent from "../components/ProjectComponent";
+import AboutMeComponent from "../components/AboutMeComponent";
 
 const Home = () => {
 	var scroller = Scroll.animateScroll;
@@ -29,17 +30,15 @@ const Home = () => {
 		setShowContactForm(true);
 	};
 	return (
-		<>
-			<FadeIn>
-				<NavCards openContactAnimation={openContactAnimation}/>
-				<ProjectComponent />
-				
-				<FooterComponent 
-                showContactForm={showContactForm}
-				setShowContactForm={setShowContactForm}
-				openContactAnimation={openContactAnimation}/>
-			</FadeIn>
-		</>
+		<FadeIn>
+			<NavCards openContactAnimation={openContactAnimation}/>
+			<ProjectComponent />
+			<AboutMeComponent />
+			<FooterComponent 
+            showContactForm={showContactForm}
+			setShowContactForm={setShowContactForm}
+			openContactAnimation={openContactAnimation}/>
+		</FadeIn>
 	);
 };
 
