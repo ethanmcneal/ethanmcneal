@@ -3,7 +3,7 @@ import { Button } from 'bootstrap-react'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import * as Scroll from 'react-scroll'
-import FooterComponent from '../components/main/FooterComponent'
+import Footer from '../components/sub/Footer'
 
 const MUSN = () => {
     var scroller = Scroll.animateScroll
@@ -66,8 +66,9 @@ const MUSN = () => {
             </div>
         </div>
         </div>
-    
-        <FooterComponent />
+         <div style={{backgroundColor: '#222'}}>
+        <Footer />
+        </div>
         </>
     )
 }

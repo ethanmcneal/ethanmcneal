@@ -5,6 +5,7 @@ import EmailFormComponent from "./EmailFormComponent";
 
 
 const FooterComponent = (props) => {
+	
 	return (
 		<div style={{ backgroundColor: "rgb(34,34,34)", width: "100%" }}>
 			<Footer />

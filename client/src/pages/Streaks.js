@@ -5,7 +5,7 @@ import { Button } from 'bootstrap-react'
 import { Link } from 'react-router-dom'
 import * as Scroll from 'react-scroll'
 import { useEffect } from 'react'
-import FooterComponent from '../components/main/FooterComponent'
+import Footer from '../components/sub/Footer'
 
 const Streaks = () => {
 
@@ -64,8 +64,9 @@ const Streaks = () => {
         
         <br/> <br /> <br /> <br /> <br />
         </div>
-    
-        <FooterComponent />
+        <div style={{backgroundColor: '#222'}}>
+        <Footer />
+        </div>
         </>
     )
 }
