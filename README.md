@@ -1,4 +1,4 @@
-## Hey! my name is Ethan McNeal and I am a full stack developer.
+## Hey! my name is Ethan McNeal, I am a full stack developer.
 
  ### || TypeScript || JavaScript || Ruby || PostgresQL || React || React Native || HTML || CSS || 
 
