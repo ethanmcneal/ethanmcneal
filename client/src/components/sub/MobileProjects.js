@@ -1,6 +1,7 @@
 import streaks from '../../images/1.png'
 import { Button } from 'bootstrap-react'
 import { Link } from 'react-router-dom'
+import ezshop from '../../images/ezshop.png'
 
 const MobileProjects = () => {
     return(
@@ -30,13 +31,16 @@ const MobileProjects = () => {
                 </Button>
                 </Link>
             </div>
-            <div className='mobile-project-container' style={{backgroundColor: 'white', border: '2px solid black'}}>
-                <div style={{backgroundColor: 'black', color: 'white', margin: '8em 4em', padding: '2em'}}>
-                <h1 style={{fontSize: '2.5em'}}>Ethan'z EZ Shop</h1>
-                </div>
-                <h3 style={{color: 'black', margin: '0 1em'}}>
-                A mock e-commerce app built in React Native with Redux and user authentication. 
+            <div className='mobile-project-container' style={{backgroundColor: '#161616', border: '2px solid black'}}>
+            <img alt='ez shop' src={ezshop} style={{margin: '2em 0', height: '35%'}}/>
+                <h3 style={{color: '#94d6c3', margin: '0 1.3em'}}>
+                    EZ shop is a mock e-commerce site built with React Native, it uses React Navigation and Redux to manage state.                
                 </h3>
+                <a href='https://github.com/ethanmcneal/EthansEzShop' target='_blank' rel="noreferrer">
+                <Button variant="Warning" style={{backgroundColor: '#a5a1c9', marginTop: '2em', borderColor: '#a5a1c9'}}>
+                    Check it out!
+                </Button>
+                </a>
                 
             </div>
             <div className='mobile-project-container' style={{backgroundColor: 'white', border: '2px solid black'}}>

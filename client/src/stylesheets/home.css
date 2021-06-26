@@ -83,6 +83,7 @@ h1 {
 
 .mobile-project-container {
     min-width: 325px;
+    height: 700px;
     text-align: center;
     margin: 0 0 2em 0;
     padding-bottom: 5em;
