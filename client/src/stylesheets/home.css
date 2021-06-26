@@ -90,6 +90,7 @@ h1 {
 
 .project-container {
     min-width: 30em;
+    height: 700px;
     text-align: center;
     margin: 0 1em 1em;
     padding-bottom: 2em;

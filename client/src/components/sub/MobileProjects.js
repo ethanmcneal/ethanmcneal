@@ -32,10 +32,10 @@ const MobileProjects = () => {
             </div>
             <div className='mobile-project-container' style={{backgroundColor: 'white', border: '2px solid black'}}>
                 <div style={{backgroundColor: 'black', color: 'white', margin: '8em 4em', padding: '2em'}}>
-                <h1 style={{fontSize: '2.5em'}}>WIP</h1>
+                <h1 style={{fontSize: '2.5em'}}>Ethan'z EZ Shop</h1>
                 </div>
                 <h3 style={{color: 'black', margin: '0 1em'}}>
-                            This project is a work in progress and this card will be updated when I am ready to share it        
+                A mock e-commerce app built in React Native with Redux and user authentication. 
                 </h3>
                 
             </div>
