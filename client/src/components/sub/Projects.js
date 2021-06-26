@@ -1,7 +1,6 @@
 import streaks from '../../images/1.png'
 import ezshop from '../../images/ezshop.png'
 import { Button } from 'bootstrap-react'
-import { Link } from 'react-router-dom'
 
 const Projects = () => {
     return(
@@ -12,12 +11,12 @@ const Projects = () => {
                     Streaks is an app deigned to put a fun, competitive spin on creating healthy habits with friends and family. 
                 </h3>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly'}}>
-                <a href='github.com/ethanmcneal/streaks' target='_blank'>
+                <a href='https://github.com/ethanmcneal/streaks' target='_blank' rel="noreferrer">
                 <Button variant="Warning" style={{backgroundColor: 'rgb(245 155 13)', marginTop: '2em'}}>
                     Check it out!
                 </Button>
                 </a>
-                <a href='github.com/ethanmcneal/streaks' target='_blank'>
+                <a href='https://streaks-app.herokuapp.com/' target='_blank' rel="noreferrer">
                 <Button variant="Warning" style={{backgroundColor: 'rgb(245 155 13)', marginTop: '2em'}}>
                     Live site!
                 </Button>
@@ -31,18 +30,18 @@ const Projects = () => {
                 <h3 style={{color: 'white', margin: '0 1em'}}>
                     MUSN is an app that won a hackathon at DevPoint Labs and was made in under 6 hours, it was created for users to be able to follow bands and share their favorite songs right on their profile. 
                 </h3>
-                <a href='https://github.com/tvonhake/Musn' target='_blank'>
+                <a href='https://github.com/tvonhake/Musn' target='_blank' rel="noreferrer">
                 <Button variant="Warning" style={{backgroundColor: 'rgb(55,90,127)', marginTop: '2em'}}>
                     Check it out!
                 </Button>
                 </a>
             </div>
             <div className='project-container' style={{backgroundColor: '#151515', border: '2px solid black'}}>
-                <img src={ezshop} style={{margin: '2em 0', height: '55%'}}/>
+                <img alt='ez shop' src={ezshop} style={{margin: '2em 0', height: '55%'}}/>
                 <h3 style={{color: '#94d6c3', margin: '0 1.3em'}}>
                     EZ shop is a mock e-commerce site built with React Native, it uses React Navigation and Redux to manage state.                
                 </h3>
-                <a href='https://github.com/ethanmcneal/EthansEzShop' target='_blank'>
+                <a href='https://github.com/ethanmcneal/EthansEzShop' target='_blank' rel="noreferrer">
                 <Button variant="Warning" style={{backgroundColor: '#a5a1c9', marginTop: '2em', borderColor: '#a5a1c9'}}>
                     Check it out!
                 </Button>
