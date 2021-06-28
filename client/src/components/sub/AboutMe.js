@@ -1,7 +1,7 @@
 
 import hawaii from '../../images/hawaii.JPG'
 import {
-    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiPostgresql, SiRails, SiReact, SiRedux, SiRuby, SiSemanticweb, SiVisualstudiocode
+    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiPostgresql, SiRails, SiReact, SiRedux, SiSemanticweb, SiTypescript, SiVisualstudiocode
 } from 'react-icons/si'
 import {Popup} from 'semantic-ui-react'
 
@@ -26,20 +26,20 @@ const AboutMe = () => {
                 trigger={<SiJavascript size='3em' style={{margin: 'auto'}} 
                 basic/>} />
                 <Popup className='icon-popup'
+                content='TypeScript' 
+                trigger={<SiTypescript size='3em' style={{margin: 'auto'}} 
+                basic/>}/>
+                <Popup className='icon-popup'
                 content='React' 
                 trigger={<SiReact size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
                 <Popup className='icon-popup'
-                content='Ruby' 
-                trigger={<SiRuby size='3em' style={{margin: 'auto'}} 
+                content='Redux' 
+                trigger={<SiRedux size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
                 <Popup className='icon-popup'
                 content='Ruby on Rails' 
                 trigger={<SiRails size='3em' style={{margin: 'auto'}} 
-                basic/>}/>
-                <Popup className='icon-popup'
-                content='Redux' 
-                trigger={<SiRedux size='3em' style={{margin: 'auto'}} 
                 basic/>}/>
                 <Popup className='icon-popup'
                 content='Semantic UI' 
