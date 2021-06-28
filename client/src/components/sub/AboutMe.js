@@ -14,7 +14,10 @@ const AboutMe = () => {
                 <img src={hawaii} alt='zipline.png' style={{width: '500px', height: '300px', margin: '0 3em'}}/>
                     <div style={{margin: '0 3em 3em 0', fontSize: '22px', textAlign: 'left'}}>
                         {/* <h1 style={{margin: '0', textAlign: 'left'}}>Me:</h1> */}
-                        <p style={{marginTop: '1.5em'}}>Hey, I'm Ethan! I graduated from the University of Utah's Web Developer bootcamp in April 2021, and now on the hunt for employment. Please take the time to check out some of my projects and repos on Github! Currently, I am learning React Native and Redux, and mastering Javascript</p>
+                        <p style={{marginTop: '1.5em'}}>
+                        Hey, I'm Ethan! I graduated from the University of Utah's Web Developer bootcamp in April 2021, and now on the hunt for employment. Please take the time to check out some of my projects and repos on Github! Currently, I am learning React Native, Redux, and mastering Javascript            
+                        </p>                
+                        
                     </div>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', margin: '2em 16em', flexWrap: 'wrap'}}>
