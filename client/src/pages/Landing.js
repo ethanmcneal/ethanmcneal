@@ -13,7 +13,7 @@ const Landing = () => {
             </h1>
             </Link>
             <h2>Full Stack Developer</h2>
-            <h3 >| ReactJS | Ruby on Rails | JavaScript | JSON | PostgreSQL |</h3>
+            <h3 >| | React | | React Native | | JavaScript | | Ruby on Rails | | SQL | |</h3>
             
             </div>
             <img src={landing} alt='montana mountains' style={{width: window.innerWidth, height: window.innerHeight, display: 'block', objectFit: 'cover'}}/>
