@@ -1,5 +1,5 @@
 import {
-    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiRails, SiReact, SiRuby, SiSemanticweb, SiVisualstudiocode
+    SiBootstrap, SiCss3, SiGithub, SiHtml5, SiJavascript, SiRails, SiReact, SiRedux, SiSemanticweb, SiVisualstudiocode
 } from 'react-icons/si'
 
 const MobileAboutMe = () => {
@@ -12,7 +12,7 @@ const MobileAboutMe = () => {
             <div style={{display: 'flex', justifyContent: 'center', margin: '2em 1em 0 1em', flexWrap: 'wrap'}}>
                 <SiJavascript size='3em' style={{margin: '0 .6em'}}/>
                 <SiReact size='3em' style={{margin: '0 .6em'}}/>
-                <SiRuby size='3em' style={{margin: '0 .6em'}}/>
+                <SiRedux size='3em' style={{margin: '0 .6em'}}/>
                 <SiRails size='3em' style={{margin: '0 .6em'}}/>
                 {/* <SiJson size='3em' style={{margin: 'auto'}}/> */}
                 <SiSemanticweb size='3em' style={{margin: '0 .6em'}}/>
