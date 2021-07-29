@@ -23,12 +23,12 @@ class Projects extends Component {
     }
     render() {
     return(
-        <div className='projectComponentContainer'>
-        <div className='leftButton'>
+        <div className='project-component-container'>
+        <div className='nav-button' id='left'>
         <button onClick={() => this.handleNav('left')}>Left</button>
         </div>
 
-        <div className='projects-container' style={{margin: '0 10em'}} ref={this.navRef}>
+        <div className='projects-container' style={{margin: '0 7em'}} ref={this.navRef}>
             <div className='project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
                 <img alt='streaks' style={{margin: '0'}} src={streaks}/>
                 <h3 style={{color: 'rgb(245 155 13)', margin: '-20px 1em 0'}}>
@@ -85,7 +85,7 @@ class Projects extends Component {
                 <h3>WIP</h3>
             </div> */}
         </div>
-        <div className='rightButton'>
+        <div className='nav-button' id='right'>
         <button onClick={() => this.handleNav('right')}>Right</button>
         </div>
 

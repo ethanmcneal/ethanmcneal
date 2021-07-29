@@ -73,11 +73,12 @@ h1 {
 }
 
 .projects-container {
+    width: 80%;
     display: flex;
     flex-wrap: nowrap;
     /* justify-content: center; */
     overflow-x: auto;
-    margin: 0 2em 1em;
+    margin: 0 0 1em 0;
     
 }
 
@@ -89,17 +90,22 @@ h1 {
     padding-bottom: 5em;
 }
 
-.projectComponentContainer {
+.project-component-container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    flex: 1;
+}
+.nav-button{
+    margin: 0;
 }
 
 .project-container {
     min-width: 30em;
     height: 700px;
     text-align: center;
-    margin: 0 1em 1em;
+    margin: 0 .8em 1em;
     padding-bottom: 2em;
     border-radius: 12px;
 }
