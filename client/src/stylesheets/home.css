@@ -89,6 +89,12 @@ h1 {
     padding-bottom: 5em;
 }
 
+.projectComponentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .project-container {
     min-width: 30em;
     height: 700px;
@@ -97,6 +103,7 @@ h1 {
     padding-bottom: 2em;
     border-radius: 12px;
 }
+
 
 .image-links {
     position: relative;

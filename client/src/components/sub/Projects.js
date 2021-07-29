@@ -1,10 +1,34 @@
+import React, { Component, createRef } from 'react'
 import streaks from '../../images/1.png'
 import ezshop from '../../images/ezshop.png'
 import { Button } from 'bootstrap-react'
 
-const Projects = () => {
+class Projects extends Component {
+
+    constructor(props) {
+        super(props)
+
+        this.navRef = createRef()
+    }
+    
+
+    handleNav = (direction) => {
+        if (direction === 'left' && this.navRef){
+            (this.navRef.current.scrollLeft -= 200)
+        } else if(direction === 'right' && this.navRef) {
+            (this.navRef.current.scrollLeft += 200)
+        } else {
+            return null
+        }
+    }
+    render() {
     return(
-        <div className='projects-container' style={{margin: '0 10em'}}>
+        <div className='projectComponentContainer'>
+        <div className='leftButton'>
+        <button onClick={() => this.handleNav('left')}>Left</button>
+        </div>
+
+        <div className='projects-container' style={{margin: '0 10em'}} ref={this.navRef}>
             <div className='project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
                 <img alt='streaks' style={{margin: '0'}} src={streaks}/>
                 <h3 style={{color: 'rgb(245 155 13)', margin: '-20px 1em 0'}}>
@@ -61,6 +85,11 @@ const Projects = () => {
                 <h3>WIP</h3>
             </div> */}
         </div>
-    )
+        <div className='rightButton'>
+        <button onClick={() => this.handleNav('right')}>Right</button>
+        </div>
+
+        </div>
+    )}
 }
 export default Projects
