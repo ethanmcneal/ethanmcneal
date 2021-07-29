@@ -73,14 +73,20 @@ h1 {
 }
 
 .projects-container {
-    width: 80%;
+    width: 72%;
     display: flex;
     flex-wrap: nowrap;
     /* justify-content: center; */
     overflow-x: auto;
     margin: 0 0 1em 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
     
 }
+
+.projects-container::-webkit-scrollbar {
+    display: none;
+  }
 
 .mobile-project-container {
     min-width: 325px;
@@ -99,6 +105,12 @@ h1 {
 }
 .nav-button{
     margin: 0;
+    color: black;
+}
+.nav-button:hover{
+    cursor: pointer;
+    color: white;
+    transition-duration: .4s;
 }
 
 .project-container {
