@@ -5,8 +5,9 @@ import ezshop from '../../images/ezshop.png'
 
 const MobileProjects = () => {
     return(
-        <>
-        <div className='projects-container' >
+    <>
+        <div className='project-component-container'>
+        <div className='mobile-projects-container' >
             <div className='mobile-project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
                 <img alt='streaks' style={{margin: '2em 0 0 0', width: '300px'}} src={streaks}/>
                 <h3 style={{color: 'rgb(245 155 13)', margin: '-20px .8em 0'}}>
@@ -57,6 +58,7 @@ const MobileProjects = () => {
                 <h2>WIP</h2>
             </div> */}
             
+        </div>
         </div>
         <p style={{textAlign: 'center', margin:'-40px 0 0 0'}}>Swipe to view more</p>
         </>

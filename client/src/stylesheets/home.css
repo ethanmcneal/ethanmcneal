@@ -73,13 +73,32 @@ h1 {
 }
 
 .projects-container {
+    width: 72%;
     display: flex;
     flex-wrap: nowrap;
     /* justify-content: center; */
     overflow-x: auto;
-    margin: 0 2em 1em;
+    margin: 0 0 1em 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
     
 }
+
+.mobile-projects-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    overflow-x: auto;
+    margin: 0 0 1em 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    
+}
+
+.projects-container::-webkit-scrollbar {
+    display: none;
+  }
 
 .mobile-project-container {
     min-width: 325px;
@@ -89,14 +108,32 @@ h1 {
     padding-bottom: 5em;
 }
 
+.project-component-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.nav-button{
+    margin: 0;
+    color: black;
+}
+.nav-button:hover{
+    cursor: pointer;
+    color: white;
+    transition-duration: .4s;
+}
+
 .project-container {
     min-width: 30em;
     height: 700px;
     text-align: center;
-    margin: 0 1em 1em;
+    margin: 0 .8em 1em;
     padding-bottom: 2em;
     border-radius: 12px;
 }
+
 
 .image-links {
     position: relative;

@@ -1,10 +1,35 @@
+import React, { Component, createRef } from 'react'
 import streaks from '../../images/1.png'
 import ezshop from '../../images/ezshop.png'
 import { Button } from 'bootstrap-react'
+import { TiChevronRightOutline, TiChevronLeftOutline } from 'react-icons/ti'
 
-const Projects = () => {
+class Projects extends Component {
+
+    constructor(props) {
+        super(props)
+
+        this.navRef = createRef()
+    }
+    
+
+    handleNav = (direction) => {
+        if (direction === 'left' && this.navRef){
+            (this.navRef.current.scrollLeft -= 500)
+        } else if(direction === 'right' && this.navRef) {
+            (this.navRef.current.scrollLeft += 500)
+        } else {
+            return null
+        }
+    }
+    render() {
     return(
-        <div className='projects-container' style={{margin: '0 10em'}}>
+        <div className='project-component-container'>
+        <div className='nav-button' id='left' onClick={() => this.handleNav('left')}>
+        <TiChevronLeftOutline size={40} />
+        </div>
+
+        <div className='projects-container' ref={this.navRef}>
             <div className='project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
                 <img alt='streaks' style={{margin: '0'}} src={streaks}/>
                 <h3 style={{color: 'rgb(245 155 13)', margin: '-20px 1em 0'}}>
@@ -61,6 +86,11 @@ const Projects = () => {
                 <h3>WIP</h3>
             </div> */}
         </div>
-    )
+        <div className='nav-button' id='right' onClick={() => this.handleNav('right')}>
+        <TiChevronRightOutline size={40}/>
+        </div>
+
+        </div>
+    )}
 }
 export default Projects
