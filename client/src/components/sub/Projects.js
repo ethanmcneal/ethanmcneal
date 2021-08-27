@@ -189,9 +189,6 @@ class Projects extends Component {
 							</Button>
 						</a>
 					</div>
-					{/* <div className='project-container' style={{backgroundColor: 'darkorchid'}}>
-                <h3>WIP</h3>
-            </div> */}
 				</div>
 				<div
 					className="nav-button"
