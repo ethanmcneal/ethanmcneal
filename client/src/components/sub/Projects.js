@@ -1,6 +1,7 @@
 import React, { Component, createRef } from 'react'
 import streaks from '../../images/1.png'
 import babyNames from '../../images/BNIcon-pink.png'
+import MUSN from '../../images/musn-logo.png'
 import ezshop from '../../images/ezshop.png'
 import { Button } from 'bootstrap-react'
 import { TiChevronRightOutline, TiChevronLeftOutline } from 'react-icons/ti'
@@ -34,7 +35,7 @@ class Projects extends Component {
             <div className='project-container' style={{backgroundColor: '#539BF5'}}>
                 <img alt='baby-names logo' style={{margin: '2em 0', height: '50%',}} src={babyNames}/>
                 <h3 style={{color: 'white', margin: '0 .5em'}}>
-Baby Names is a mobile application to help you name your next baby! Featuring fluid animations, optimized for speed and memory use, and customizable themes! coming to apple app store soon                </h3>
+Baby Names is a mobile application to help you name your next baby! Fluid animations, optimized for speed and memory use, and customizable themes! coming to Apple app store soon                </h3>
                 <a href='https://github.com/ethanmcneal/baby-names' target='_blank' rel="noreferrer">
                 <Button variant="Warning" style={{color: 'white',backgroundColor: '#F7B7E9', marginTop: '2em'}}>
                     Check it out!
@@ -61,9 +62,7 @@ Baby Names is a mobile application to help you name your next baby! Featuring fl
                 </div>
             </div>
             <div className='project-container' style={{backgroundColor: 'rgb(34,34,34)'}}>
-                <div style={{backgroundColor: 'rgb(55,90,127)', color: 'white', margin: '8em 4em', padding: '2em'}}>
-                <h1 style={{fontSize: '2.5em'}}>MUSN</h1>
-                </div>
+                <img alt='MUSN logo' style={{margin: '2em 0', height: '35%'}} src={MUSN}/>
                 <h3 style={{color: 'white', margin: '0 1em'}}>
                     MUSN is an app that won a hackathon at DevPoint Labs and was made in under 6 hours, it was created for users to be able to follow bands and share their favorite songs right on their profile. 
                 </h3>
