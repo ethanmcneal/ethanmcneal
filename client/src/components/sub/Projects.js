@@ -1,5 +1,6 @@
 import React, { Component, createRef } from 'react'
 import streaks from '../../images/1.png'
+import babyNames from '../../images/BNIcon-blue.png'
 import ezshop from '../../images/ezshop.png'
 import { Button } from 'bootstrap-react'
 import { TiChevronRightOutline, TiChevronLeftOutline } from 'react-icons/ti'
@@ -74,9 +75,7 @@ class Projects extends Component {
                 
             </div>
             <div className='project-container' style={{backgroundColor: 'white', border: '2px solid black'}}>
-                <div style={{backgroundColor: 'black', color: 'white', margin: '8em 4em', padding: '2em'}}>
-                <h1 style={{fontSize: '2.5em'}}>WIP</h1>
-                </div>
+                <img alt='baby-names logo' style={{margin: '0'}} src={babyNames}/>
                 <h3 style={{color: 'black', margin: '0 1em'}}>
                             This project is a work in progress and this card will be updated when I am ready to share it        
                 </h3>
