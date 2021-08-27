@@ -1,6 +1,8 @@
 import streaks from '../../images/1.png'
 import { Button } from 'bootstrap-react'
 import { Link } from 'react-router-dom'
+import babyNames from '../../images/BNIcon-pink.png'
+import MUSN from '../../images/musn-logo.png'
 import ezshop from '../../images/ezshop.png'
 
 const MobileProjects = () => {
@@ -20,14 +22,12 @@ const MobileProjects = () => {
                 </Link>
             </div>
             <div className='mobile-project-container' style={{backgroundColor: 'rgb(34,34,34)'}}>
-                <div style={{backgroundColor: 'rgb(55,90,127)', color: 'white', margin: '3em 4em', padding: '2em'}}>
-                <h1 style={{fontSize: '2.5em'}}>MUSN</h1>
-                </div>
+                <img src={MUSN} alt='musn logo' style={{margin: '2em 0', width: '300px'}}/>
                 <h3 style={{color: 'white', margin: '0 .8em'}}>
                     MUSN is an app that won a hackathon at DevPoint Labs and was made in under 6 hours, it was created for users to be able to follow bands and share their favorite songs right on their profile. 
                 </h3>
                 <Link to='/musn'>
-                <Button variant="Warning" style={{backgroundColor: 'rgb(55,90,127)', marginTop: '2em'}}>
+                <Button variant="Warning" style={{backgroundColor: '#B989F6', marginTop: '2em'}}>
                     Check it out!
                 </Button>
                 </Link>
@@ -45,9 +45,7 @@ const MobileProjects = () => {
                 
             </div>
             <div className='mobile-project-container' style={{backgroundColor: 'white', border: '2px solid black'}}>
-                <div style={{backgroundColor: 'black', color: 'white', margin: '8em 4em', padding: '2em'}}>
-                <h1 style={{fontSize: '2.5em'}}>WIP</h1>
-                </div>
+            <img src={babyNames} alt='musn logo' style={{margin: '2em 0', width: '300px'}}/>
                 <h3 style={{color: 'black', margin: '0 1em'}}>
                             This project is a work in progress and this card will be updated when I am ready to share it        
                 </h3>
