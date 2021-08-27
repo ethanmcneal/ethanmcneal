@@ -74,9 +74,9 @@ class Projects extends Component {
                 </a>
                 
             </div>
-            <div className='project-container' style={{backgroundColor: 'white', border: '2px solid black'}}>
-                <img alt='baby-names logo' style={{margin: '0'}} src={babyNames}/>
-                <h3 style={{color: 'black', margin: '0 1em'}}>
+            <div className='project-container' style={{backgroundColor: '#539BF5', border: '2px solid black'}}>
+                <img alt='baby-names logo' style={{margin: '2em 0', height: '50%',}} src={babyNames}/>
+                <h3 style={{color: 'white', margin: '0 1em'}}>
                             This project is a work in progress and this card will be updated when I am ready to share it        
                 </h3>
                 
