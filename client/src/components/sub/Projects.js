@@ -1,6 +1,6 @@
 import React, { Component, createRef } from 'react'
 import streaks from '../../images/1.png'
-import babyNames from '../../images/BNIcon-blue.png'
+import babyNames from '../../images/BNIcon-pink.png'
 import ezshop from '../../images/ezshop.png'
 import { Button } from 'bootstrap-react'
 import { TiChevronRightOutline, TiChevronLeftOutline } from 'react-icons/ti'
@@ -31,6 +31,17 @@ class Projects extends Component {
         </div>
 
         <div className='projects-container' ref={this.navRef}>
+            <div className='project-container' style={{backgroundColor: '#539BF5'}}>
+                <img alt='baby-names logo' style={{margin: '2em 0', height: '50%',}} src={babyNames}/>
+                <h3 style={{color: 'white', margin: '0 .5em'}}>
+Baby Names is a mobile application to help you name your next baby! Featuring fluid animations, optimized for speed and memory use, and customizable themes! coming to apple app store soon                </h3>
+                <a href='https://github.com/ethanmcneal/baby-names' target='_blank' rel="noreferrer">
+                <Button variant="Warning" style={{color: 'white',backgroundColor: '#F7B7E9', marginTop: '2em'}}>
+                    Check it out!
+                </Button>
+                </a>
+                
+            </div>
             <div className='project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
                 <img alt='streaks' style={{margin: '0'}} src={streaks}/>
                 <h3 style={{color: 'rgb(245 155 13)', margin: '-20px 1em 0'}}>
@@ -72,13 +83,6 @@ class Projects extends Component {
                     Check it out!
                 </Button>
                 </a>
-                
-            </div>
-            <div className='project-container' style={{backgroundColor: '#539BF5', border: '2px solid black'}}>
-                <img alt='baby-names logo' style={{margin: '2em 0', height: '50%',}} src={babyNames}/>
-                <h3 style={{color: 'white', margin: '0 1em'}}>
-                            This project is a work in progress and this card will be updated when I am ready to share it        
-                </h3>
                 
             </div>
             {/* <div className='project-container' style={{backgroundColor: 'darkorchid'}}>
