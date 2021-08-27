@@ -35,7 +35,7 @@ class Projects extends Component {
             <div className='project-container' style={{backgroundColor: '#539BF5'}}>
                 <img alt='baby-names logo' style={{margin: '2em 0', height: '50%',}} src={babyNames}/>
                 <h3 style={{color: 'white', margin: '0 .5em'}}>
-Baby Names is a mobile application to help you name your next baby! Fluid animations, optimized for speed and memory use, and customizable themes! coming to Apple app store soon                </h3>
+Baby Names is a mobile application made to help name your next baby! Fluid animations, optimized for speed and memory use, and customizable themes! coming to Apple app store soon                </h3>
                 <a href='https://github.com/ethanmcneal/baby-names' target='_blank' rel="noreferrer">
                 <Button variant="Warning" style={{color: 'white',backgroundColor: '#F7B7E9', marginTop: '2em'}}>
                     Check it out!

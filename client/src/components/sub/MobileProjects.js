@@ -10,6 +10,18 @@ const MobileProjects = () => {
     <>
         <div className='project-component-container'>
         <div className='mobile-projects-container' >
+            <div className='mobile-project-container' style={{backgroundColor: '#539BF5',}}>
+            <img src={babyNames} alt='musn logo' style={{margin: '2em 0', width: '250px'}}/>
+                <h3 style={{color: 'white', margin: '0 .5em'}}>
+                Baby Names is a mobile application made to help name your next baby! Fluid animations, optimized for speed and memory use, and customizable themes!
+                </h3>
+                <a href='https://github.com/ethanmcneal/baby-names' target='_blank' rel="noreferrer">
+                <Button variant="Warning" style={{color: 'white',backgroundColor: '#F7B7E9', marginTop: '2em'}}>
+                    Check it out!
+                </Button>
+                </a>
+                
+            </div>
             <div className='mobile-project-container' style={{backgroundColor: 'rgb(25 53 81)'}}>
                 <img alt='streaks' style={{margin: '2em 0 0 0', width: '300px'}} src={streaks}/>
                 <h3 style={{color: 'rgb(245 155 13)', margin: '-20px .8em 0'}}>
@@ -32,7 +44,7 @@ const MobileProjects = () => {
                 </Button>
                 </Link>
             </div>
-            <div className='mobile-project-container' style={{backgroundColor: '#161616', border: '2px solid black'}}>
+            <div className='mobile-project-container' style={{backgroundColor: '#161616'}}>
             <img alt='ez shop' src={ezshop} style={{margin: '2em 0', height: '35%'}}/>
                 <h3 style={{color: '#94d6c3', margin: '0 1.3em'}}>
                     EZ shop is a mock e-commerce site built with React Native, it uses React Navigation and Redux to manage state.                
@@ -42,13 +54,6 @@ const MobileProjects = () => {
                     Check it out!
                 </Button>
                 </a>
-                
-            </div>
-            <div className='mobile-project-container' style={{backgroundColor: 'white', border: '2px solid black'}}>
-            <img src={babyNames} alt='musn logo' style={{margin: '2em 0', width: '300px'}}/>
-                <h3 style={{color: 'black', margin: '0 1em'}}>
-                            This project is a work in progress and this card will be updated when I am ready to share it        
-                </h3>
                 
             </div>
             
