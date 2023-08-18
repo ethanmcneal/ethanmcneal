@@ -1,7 +1,7 @@
 ## Hey! my name is Ethan McNeal, I am a full stack developer.
 
  ### || TypeScript || JavaScript || Ruby || PostgresQL || React || React Native || HTML || CSS || 
-<img align='center' alt='Ethans ReadME Stats' src='https://github-readme-stats.vercel.app/api?username=ethanmcneal&theme=radical&hide=issues&count_private=true&show_icons=true' />
+<img align='center' alt='Ethans ReadME Stats' src='https://github-readme-stats.vercel.app/api?username=ethanmcneal&theme=radical&hide=issues&count_private=false&show_icons=true' />
 
 
 
